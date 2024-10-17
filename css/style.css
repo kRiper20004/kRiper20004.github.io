@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "mts";
+  src: url(/fonts/mts-wide-regular.ttf);
+}
+@font-face {
+  font-family: "mtsbold";
+  src: url(/fonts/MTSWide-Bold.ttf);
+}
+#im1 {
+  height: 380vh;
+  margin-left: 3vw;
+}
+
+#im2 {
+  position: absolute;
+  scale: 50%;
+  margin-top: -5vw;
+  margin-right: -90vw;
+}
+
+#im3 {
+  position: absolute;
+  scale: 50%;
+  margin-top: -10vw;
+  margin-left: -83vw;
+}
+
+#im4 {
+  position: absolute;
+  scale: 50%;
+  margin-top: 68vw;
+  margin-right: -60vw;
+}
+
+#im5 {
+  width: 90vw;
+  height: 0.8vh;
+}
+
+#im6 {
+  height: 300vh;
+  margin-left: 3vw;
+}
+
+#im7 {
+  position: absolute;
+  scale: 50%;
+  margin-top: 440vw;
+  margin-right: -80vw;
+}
+
+body {
+  font-family: "mts";
+}
+
+.pg {
+  display: flex;
+  justify-content: center;
+}
+.pg .time {
+  width: 20vw;
+  font-size: 2.5vw;
+  text-align: left;
+  vertical-align: top;
+}
+.pg .time1 {
+  width: 20vw;
+  font-size: 2.5vw;
+  text-align: center;
+  vertical-align: top;
+}
+.pg .text {
+  font-size: 2vw;
+  padding-left: 5vw;
+  vertical-align: top;
+}
+.pg table {
+  width: 90vw;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+.hd {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw;
+}
+.hd .hd1 {
+  font-size: 2vw;
+  width: 90vw;
+}
+
+.pg1 {
+  display: flex;
+  justify-content: center;
+}
+.pg1 .time {
+  width: 20vw;
+  font-size: 2.5vw;
+  text-align: left;
+  vertical-align: top;
+}
+.pg1 .text {
+  font-size: 2vw;
+  padding-left: 5vw;
+  vertical-align: top;
+}
+.pg1 table {
+  width: 90vw;
+}
+
+.top {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.top .date {
+  width: 90vw;
+  font-size: 2vw;
+  margin-bottom: 5vw;
+}
+
+.top p {
+  margin-top: 15vw;
+  margin-bottom: 15vw;
+  font-size: 2.5vw;
+}
+
+@media (max-width: 768px) {
+  #im2 {
+    scale: 20%;
+    margin-top: -19.5vw;
+    margin-right: -85vw;
+  }
+  #im3 {
+    scale: 20%;
+    margin-top: -38vw;
+    margin-left: -84vw;
+  }
+  #im4 {
+    scale: 20%;
+    margin-right: -55vw;
+  }
+  #im7 {
+    scale: 20%;
+  }
+  .pg table {
+    height: 200px;
+  }
+  #t1 {
+    height: 5em;
+  }
+  #im1 {
+    height: 160vh;
+  }
+  #im6 {
+    height: 120vh;
+  }
+  #im5 {
+    height: 3px;
+  }
+  * {
+    outline: 1px solid green;
+  }
+  #im7 {
+    margin-right: -70vw;
+  }
+}
+body {
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */
